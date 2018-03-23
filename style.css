@@ -1,0 +1,381 @@
+.nav-wrapper {
+  background-color: #DA978E;
+  border-color: #DA978E;
+
+}
+
+
+#logo {
+
+    text-indent:5px;
+
+}
+
+.title {
+  font-size: 20px;
+}
+
+.nav-wrapper a {
+ color: white;
+
+}
+
+body {
+  background-color: white;
+}
+
+.nav {
+  height: 300px;
+}
+
+
+
+nav ul li:hover {
+  background-color: white;
+}
+
+.brand-logo {
+	font-family: 'Sansita', sans-serif;
+  color: #85877C;
+}
+
+h3 {
+	font-family: 'Sansita', sans-serif;
+  color: #85877C;
+
+}
+
+.section-black {
+  background-color: white;
+}
+
+.parallax-container {
+  height: 400px;
+}
+
+
+
+/*html {
+  background: url("background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+*/
+
+.parallax-mirror {
+    z-index:1
+}
+
+div.transbox {
+  margin: 30px;
+
+
+  background:rgba(0,0,0,0.4);
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.wrapper .text {
+	position:relative;
+	bottom:120px;
+	left:60px;
+	visibility:hidden;
+}
+
+.wrapper:hover .text {
+	visibility:visible;
+
+}
+
+
+
+.box-foodship {
+	width: 200px;
+	height: 200px;
+
+    padding: 10px;
+
+    margin: 0;
+
+    background-image: url("images/foodship2.png");
+    background-size: 200px, 200px;
+    float: left; 
+    margin-right: 100px; 
+    margin-bottom: 50px;
+
+
+}
+
+
+
+.box-foodship:hover  {
+	background-image: url("images/black.jpg");
+	background-size: 200px, 200px;
+}
+
+
+.box-foodship .text {
+	visibility:hidden;
+}
+
+.box-foodship:hover .text {
+	visibility:visible;
+}
+
+
+
+.box-foodship .desc {
+	visibility:hidden;
+}
+
+.box-foodship:hover .desc {
+	visibility:visible;
+}
+
+
+
+
+
+
+.box-scribe {
+	width: 200px;
+	height: 200px;
+
+    padding: 10px;
+
+    margin: 0;
+
+    background-image: url("images/scribe.png");
+    background-size: 200px, 200px;
+    float: left; 
+    margin-right: 100px; 
+    margin-bottom: 50px;
+}
+
+.box-scribe:hover  {
+	background-image: url("images/black.jpg");
+	background-size: 200px, 200px;
+}
+
+
+.box-scribe .text {
+	visibility:hidden;
+}
+.box-scribe:hover .text {
+	visibility:visible;
+}
+
+.box-scribe .desc {
+	visibility:hidden;
+}
+.box-scribe:hover .desc {
+	visibility:visible;
+}
+
+
+.box-gif {
+	width: 200px;
+	height: 200px;
+
+    padding: 10px;
+
+    margin: 0;
+
+    background-image: url("https://media.giphy.com/media/fpXxIjftmkk9y/giphy.gif");
+    background-size: 200px, 200px;
+    float: left; 
+    margin-bottom: 50px;
+
+}
+
+.box-gif:hover  {
+	background-image: url("images/black.jpg");
+	background-size: 200px, 200px;
+}
+
+
+.box-gif .text {
+	visibility:hidden;
+}
+.box-gif:hover .text {
+	visibility:visible;
+}
+
+
+.box-gif .desc {
+	visibility:hidden;
+}
+.box-gif:hover .desc {
+	visibility:visible;
+}
+
+
+
+
+.box-fbu {
+	width: 200px;
+	height: 200px;
+
+    padding: 10px;
+
+    margin: 0;
+
+    background-image: url("images/cw.png");
+    background-size: 200px, 200px;
+    float: left; 
+    margin-right: 100px; 
+    margin-bottom: 50px;
+}
+
+.box-fbu:hover  {
+	background-image: url("images/black.jpg");
+	background-size: 200px, 200px;
+}
+
+
+.box-fbu .text {
+	visibility:hidden;
+}
+.box-fbu:hover .text {
+	visibility:visible;
+}
+
+.box-fbu .desc {
+	visibility:hidden;
+}
+.box-fbu:hover .desc {
+	visibility:visible;
+}
+
+.box-clove {
+	width: 200px;
+	height: 200px;
+
+    padding: 10px;
+
+    margin: 0;
+
+    background-image: url("images/clo.jpeg");
+    background-size: 200px, 200px;
+    float: left; 
+    margin-right: 100px; 
+    margin-bottom: 50px;
+}
+
+.box-clove:hover  {
+	background-image: url("images/black.jpg");
+	background-size: 200px, 200px;
+}
+
+
+.box-clove .text {
+	visibility:hidden;
+}
+.box-clove:hover .text {
+	visibility:visible;
+}
+
+
+.box-clove .desc {
+	visibility:hidden;
+}
+.box-clove:hover .desc {
+	visibility:visible;
+}
+
+
+
+.box-imf {
+	width: 200px;
+	height: 200px;
+
+    padding: 10px;
+
+    margin: 0;
+
+    background-image: url("images/imf.png");
+    background-size: 200px, 200px;
+    float: left; 
+    margin-bottom: 50px;
+}
+
+.box-imf:hover  {
+	background-image: url("images/black.jpg");
+	background-size: 200px, 200px;
+}
+
+
+.box-imf .text {
+	visibility:hidden;
+}
+.box-imf:hover .text {
+	visibility:visible;
+}
+
+
+
+
+.box-imf .desc {
+	visibility:hidden;
+}
+.box-imf:hover .desc {
+	visibility:visible;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+
+
+
+.card {
+	background-color: rgba(0,0,0,0.4);
+
+}
+
+p {
+	color: white;
+	font-family: 'Raleway';
+}
+
+.intro {
+  color: #85877C;
+  font-family: 'Raleway';
+}
+
+.clubs {
+  color: #85877C;
+  font-family: 'Raleway';
+}
+
+footer.page-footer {
+    background-color: #DA978E;
+}
+
+.side-corner-tag {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+} 
+ 
+.side-corner-tag p {
+    display: inline;    
+}
+
+
+
