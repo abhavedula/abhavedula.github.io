@@ -186,8 +186,32 @@ div.transbox p {
   float: left; 
   margin-right: 60px; 
   margin-bottom: 50px;
+}
 
+#foodship {
+  height: 1000px;
+}
 
+#foodship-text {
+  width: 400px;
+  float: left;
+}
+
+#foodship-pic {
+  width: 500px;
+  float: right;
+}
+
+#galileo {
+  height: 1350px;
+}
+#vhacks-pic {
+  float: left;
+  width: 400px;
+}
+
+#vhacks-tweet {
+  float:right;
 }
 
 
@@ -424,7 +448,7 @@ div.transbox p {
 }
 
 .card-content {
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.5);
 }
 
 a {
