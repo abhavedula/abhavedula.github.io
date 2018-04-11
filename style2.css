@@ -10,6 +10,7 @@
 }
 
 
+
 #logo {
 
   text-indent:5px;
@@ -189,16 +190,16 @@ div.transbox p {
 }
 
 #foodship {
-  height: 1000px;
+  height: 850px;
 }
 
 #foodship-text {
-  width: 400px;
+  width: 550px;
   float: left;
 }
 
 #foodship-pic {
-  width: 500px;
+  width: 350px;
   float: right;
 }
 
