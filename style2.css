@@ -6,7 +6,17 @@
 .nav-wrapper {
   background-color: white;
   border-color: #DA978E;
+}
 
+.link {
+  color: #e57373 ;
+  text-decoration: underline;
+
+}
+
+
+.tabs .indicator {
+  background-color:#e57373 ;
 }
 
 
@@ -446,6 +456,7 @@ div.transbox p {
 
 .tab-title {
   font-family: 'Sansita', sans-serif;
+  color: black;
 }
 
 .card-content {
