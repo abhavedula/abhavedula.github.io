@@ -1,6 +1,23 @@
 .b1 {
+
+  background-color: #BFB3B3;
+}
+
+.b2 {
+
+  background-color: #5D6877;
+}
+
+.link {
+  color: #5D6877 ;
+  text-decoration: underline;
+
+}
+
+#home {
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: contain;
+
 }
 
 .nav-wrapper {
@@ -8,27 +25,41 @@
   border-color: #DA978E;
 }
 
-.link {
-  color: #e57373 ;
-  text-decoration: underline;
-
-}
-
 
 .tabs .indicator {
-  background-color:#e57373 ;
+  background-color: #5D6877 ;
 }
 
+/* CSS files add styling rules to your content */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 90px;
+}
 
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  margin-bottom: 20px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 572px
+}
 
 #logo {
-
   text-indent:5px;
 
 }
 
 .panel-body {
   color: #af5664;
+}
+
+.chart1 li {
+  background: #BFB3B3 !important;
 }
 
 .title {
@@ -54,7 +85,6 @@ body {
 
 .stuff {
   margin-top: -20px;
-  background: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -69,6 +99,13 @@ body {
 }
 
 
+h5 {
+  color: #5D6877;
+}
+
+.dblue-text {
+  color: #5D6877;
+}
 
 nav ul li:hover {
   background-color: white;
@@ -76,7 +113,7 @@ nav ul li:hover {
 
 .brand-logo {
 	font-family: 'Sansita', sans-serif;
-  color: black;
+  color: #5D6877 !important;
 }
 
 h3 {
